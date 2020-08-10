@@ -80,7 +80,7 @@
             <dependency>
                 <groupId>com.github.cafdataprocessing</groupId>
                 <artifactId>worker-document-framework</artifactId>
-                <version>4.4.0-SNAPSHOT</version>
+                <version>4.4.0-707</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
