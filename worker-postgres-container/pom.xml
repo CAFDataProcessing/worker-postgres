@@ -200,7 +200,7 @@
                     <images>
                         <!-- PostgreSQL Database -->
                         <image>
-                            <name>${dockerHubPublic}/library/postgres:11.7</name>
+                            <name>${dockerHubPublic}/library/postgres:11</name>
                             <alias>postgres</alias>
                             <run>
                                 <ports>
