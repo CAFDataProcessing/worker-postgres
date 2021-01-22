@@ -61,7 +61,7 @@
     <scm>
         <connection>scm:git:https://github.com/CAFDataProcessing/worker-postgres.git</connection>
         <developerConnection>scm:git:https://github.com/CAFDataProcessing/worker-postgres.git</developerConnection>
-        <url>${gitRepo}</url>
+        <url>https://github.com/CAFDataProcessing/worker-postgres</url>
     </scm>
 
     <properties>
@@ -70,7 +70,6 @@
         <dockerHubOrganization>cafdataprocessing</dockerHubOrganization>
         <dockerCafDataProcessingOrg>${dockerImagePrefix}${dockerHubOrganization}${dockerOrgSeperator}</dockerCafDataProcessingOrg>
         <dockerProjectVersion>${dockerVersionSeperator}${project.version}</dockerProjectVersion>
-        <gitRepo>https://github.com/CAFDataProcessing/worker-postgres</gitRepo>
         <enforceBannedDependencies>true</enforceBannedDependencies>
         <enforceCorrectDependencies>true</enforceCorrectDependencies>
     </properties>
