@@ -280,7 +280,7 @@
                             <alias>worker-postgres</alias>
                             <name>${dockerCafDataProcessingOrg}worker-postgres${dockerProjectVersion}</name>
                             <build>
-                                <from>${dockerHubPublic}/cafapi/prereleases:opensuse-jre11-3.5.0-SNAPSHOT</from>
+                                <from>${dockerHubPublic}/cafapi/opensuse-jre11:3</from>
                                 <cmd>
                                     <exec>
                                         <args>/maven/worker.sh</args>
