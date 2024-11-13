@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.github.cafdataprocessing.postgres;
+package com.github.cafdataprocessing.workers.postgres;
 
-import com.hpe.caf.worker.document.extensibility.DocumentWorker;
-import com.hpe.caf.worker.document.model.Document;
-import com.hpe.caf.worker.document.model.HealthMonitor;
+import com.github.cafdataprocessing.workers.document.extensibility.DocumentWorker;
+import com.github.cafdataprocessing.workers.document.model.Document;
+import com.github.cafdataprocessing.workers.document.model.HealthMonitor;
 
 public final class PostgresWorker implements DocumentWorker
 {
