@@ -28,6 +28,7 @@
     </parent>
 
     <artifactId>worker-postgres-container</artifactId>
+    <name>worker-postgres-container</name>
     <packaging>pom</packaging>
 
     <properties>
