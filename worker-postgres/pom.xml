@@ -28,6 +28,7 @@
     </parent>
 
     <artifactId>worker-postgres</artifactId>
+    <name>worker-postgres</name>
 
     <dependencies>
         <dependency>
